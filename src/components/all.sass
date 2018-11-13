@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css?family=Merriweather')
 
 // Config vars
 $kaldi-red: #FD461E
@@ -39,4 +40,35 @@ $primary-invert: $kaldi-red-invert
 .margin-top-0
   margin-top: 0 !important
 
+.slick-slider
+  top: 50vh
+  transform: translateY(-50%) translateY(12px)
+    
+  .slick-slide
+    outline: 0
+    padding-right: 1em
+    padding-left: 1em
+
 @import "~bulma"
+
+.section
+  padding: 0
+
+  .container
+    width: 90%
+    max-width: 90%
+    
+.navbar
+  position: absolute
+  height: calc(50vh - 18vw)
+  top: 0
+  width: 100vw
+  background-color: transparent
+  
+  .container
+    width: 90%
+    max-width: 90%
+
+  .logo
+    font-size: 32px
+    font-family: 'Merriweather', serif

@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import url('https://fonts.googleapis.com/css?family=Merriweather')
 
 // Config vars
 $kaldi-red: #FD461E
@@ -39,4 +40,79 @@ $primary-invert: $kaldi-red-invert
 .margin-top-0
   margin-top: 0 !important
 
+.slick-slider
+  top: 50vh
+  transform: translateY(-50%) translateY(-7.5vh)
+  
+  .slick-track
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+    align-items: stretch
+    max-height: 80vh
+    height: 80vh
+    
+    .slick-slide
+      outline: 0
+      height: auto
+      padding-right: 1em
+      padding-left: 1em
+      opacity: 1
+      transition: opacity 0.4s
+      
+      & > div
+        height: 100%
+        width: auto
+    
+      &:not(.slick-center)
+        opacity: 0.5
+         
+      .content
+        position: relative
+        outline: 0
+        height: 100%
+        width: auto
+        
+        p
+          position: absolute
+        
+        img
+          display: block
+          // width: auto
+
+.wrapword
+  white-space: -moz-pre-wrap !important  /* Mozilla, since 1999 */
+  white-space: -pre-wrap      /* Opera 4-6 */
+  white-space: -o-pre-wrap    /* Opera 7 */
+  white-space: pre-wrap       /* css-3 */
+  word-wrap: break-word       /* Internet Explorer 5.5+ */
+  white-space: -webkit-pre-wrap /* Newer versions of Chrome/Safari*/
+  word-break: break-all
+  white-space: normal
+
 @import "~bulma"
+
+.section
+  padding: 0
+
+  .container
+    width: 90%
+    max-width: 90%
+
+.template-content
+  margin-top: 15vh
+
+.navbar
+  position: absolute
+  height: 15vh
+  top: 0
+  width: 100vw
+  background-color: transparent
+  
+  .container
+    width: 90%
+    max-width: 90%
+
+  .logo
+    font-size: 32px
+    font-family: 'Merriweather', serif

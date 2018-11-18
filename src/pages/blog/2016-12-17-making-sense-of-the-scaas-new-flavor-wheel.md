@@ -8,6 +8,7 @@ description: >-
 tags:
   - flavor
   - tasting
+cover: https://i.imgur.com/h31Sezx.jpg
 ---
 ![flavor wheel](/img/flavor_wheel.jpg)
 

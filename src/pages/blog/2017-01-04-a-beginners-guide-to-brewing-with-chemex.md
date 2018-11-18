@@ -9,6 +9,8 @@ description: >-
 tags:
   - brewing
   - chemex
+cover: https://scontent.fwaw3-1.fna.fbcdn.net/v/t1.0-9/1384237_676292945716987_1238664053_n.jpg?_nc_cat=106&_nc_ht=scontent.fwaw3-1.fna&oh=a745c57da05c03c59802942e7d024370&oe=5C7B6A25
+
 ---
 ![chemex](/img/products-full-width.jpg)
 
